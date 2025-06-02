@@ -1,0 +1,66 @@
+name: wallx
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+
+  # For image caching
+  cached_network_image: ^3.3.0
+
+  # For grid layout
+  flutter_staggered_grid_view: ^0.7.0
+
+  # For API requests
+  http: ^0.13.6  # Downgraded for compatibility with gallery_saver
+
+  # For bottom navbar
+  font_awesome_flutter: ^10.6.0
+
+  # For local storage
+  flutter_secure_storage: ^9.0.0
+
+  # For sharing
+  share_plus: ^7.2.0
+
+  # For path provider
+  path_provider: ^2.1.1
+
+  # For permission handling
+  permission_handler: ^11.1.0
+
+  # For shared preferences
+  shared_preferences: ^2.2.2
+
+  # For saving images to gallery
+  gallery_saver: ^2.3.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1  # or latest
+
+flutter_icons:
+  android: true
+  image_path: "assets/images/icon.png"
+
+flutter_test:
+  sdk: flutter
+
+flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/wallpapers/
